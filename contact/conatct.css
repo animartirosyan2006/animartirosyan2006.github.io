@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .base{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .main{
+        width: 100%;
+        height: 80px;
+        padding-left: 30px;
+        display: flex;
+        padding-top: 25px;
+        background-color: white;
+        position: fixed;
+    }
+    
+    .icnox {
+     
+        font-family: "Inconsolata", sans-serif;
+        background: white;
+        color: black;
+        padding-left: 80px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .icnox1 {
+        position: relative;
+        display: inline-block;
+    }
+    .typ{
+        
+        font-size: 20px;
+    }
+    .icnox2 {
+        font-family: "Inconsolata", sans-serif;
+        display: none;
+        position: absolute;
+        background: black;
+        color: black;
+        min-width: 200px;
+        z-index: 1;
+    }
+    
+    .icnox12 {
+        font-family: "Inconsolata", sans-serif;
+        display: none;
+        position: absolute;
+        background: black;
+        color: black;
+        min-width: 700px;
+        z-index: 1;
+        text-align: center;
+        left: -150px
+    }
+    
+    .icnox12 a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .icnox12 a:hover {
+        background-color: #f1f1f1;
+        color: black
+    }
+    
+    .icnox1:hover .icnox12 {
+        display: block;
+        
+    }
+    
+    .oll{
+        font-size: 16px;
+    }
+    .icnox1:hover .oll{
+     transform: rotate(180deg);
+    }
+    
+    .icnox2 a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .icnox2 a:hover {
+        background-color: #f1f1f1;
+        color: black
+    }
+    .yey{
+        display: none;
+    }
+    .fa-right{
+        color: white;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .big{
+        display: flex;
+    }
+    .big:hover .yey{
+        display: block;
+    }
+    .icnox1:hover .icnox2 {
+        display: block;
+    }
+    .icnox2:hover .oll {
+        transform:rotate3d(180deg);
+    }
+    
+    .sss {
+        display: flex;
+        justify-content: space-around
+    }
+    .ic1 {
+        color: #f0a951;
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    .glximg{
+        width: 100%;
+        height: 500px;
+    }
+
+    .cont{
+        width: 100%;
+       justify-content: center;
+        display: flex;
+
+    }
+    .one{
+        width: 80%;
+        padding-left: 40px;
+
+    }
+
+    .inp{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .inpp{
+        width: 46%;
+        text-decoration: none;
+        padding-top: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+       
+    }
+    .inpbig{
+        width: 100%;
+        height: 80px;
+        margin-top: 20px;
+      margin-left: 10px;
+    }
+    .btn_1 {
+        width: 200px;
+        height: 70px;
+        border: none;
+        color: orange;
+        background-color: white;
+        box-shadow: inset 0 0 0 0 orange;
+        transition: ease-out 0.3s;
+        font-size: 20px;
+        outline: none;
+        margin-top: 15px;
+        border: orange;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 40px;
+        text-align: center;
+    }
+    
+    .btn_1:hover {
+        box-shadow: inset 300px 0 0 0 black;
+        color: white;
+        background: black;
+        cursor: pointer;
+        border: black
+    }
+    .two{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fourth{
+        width: 50%;
+    }
+    .ic {
+        color: #f0a951;
+        font-size: 20px;
+    
+    }
+    .ff{
+        color: #5f5f61;
+        padding-left: 15px;
+    }
+    .ff:hover{
+        color: #f0a951;
+    }
+    
+    .end{
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+    }
+    .map{
+        padding-right: 100px;
+        margin-top: 20px;
+    }
+    .end{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       margin-top: 80px;
+       
+      
+        
+    }
+    .endof{
+        width: 32%;
+       padding-right: 20px;
+       margin-right: 10px;
+       
+    }
+    .trey{
+        width: 100%;
+    }
+    .end1{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        padding-top: 10px;
+    }
+    .endimg{
+        width: 100px;
+        height: 100px;
+    }
+    .textt{
+        width: 100%;
+    }
+    .org{
+        color: #f0a951;
+        font-size: 20px
+    }
+    .org:hover{
+        color: #3b3940;
+    }
+    .galery{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .gal{
+        width: 120px;
+        height: 120px;
+        padding-left: 8px;
+        padding-top: 8px;
+       
+    }

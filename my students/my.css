@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .base{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .main{
+        width: 100%;
+        height: 80px;
+        padding-left: 30px;
+        display: flex;
+        padding-top: 25px;
+        background-color: white;
+        position: fixed;
+    }
+    
+    .icnox {
+     
+        font-family: "Inconsolata", sans-serif;
+        background: white;
+        color: black;
+        padding-left: 80px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .icnox1 {
+        position: relative;
+        display: inline-block;
+    }
+    .typ{
+        
+        font-size: 20px;
+    }
+    .icnox2 {
+        font-family: "Inconsolata", sans-serif;
+        display: none;
+        position: absolute;
+        background: black;
+        color: black;
+        min-width: 200px;
+        z-index: 1;
+    }
+    
+    .icnox12 {
+        font-family: "Inconsolata", sans-serif;
+        display: none;
+        position: absolute;
+        background: black;
+        color: black;
+        min-width: 700px;
+        z-index: 1;
+        text-align: center;
+        left: -150px
+    }
+    
+    .icnox12 a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .icnox12 a:hover {
+        background-color: #f1f1f1;
+        color: black
+    }
+    
+    .icnox1:hover .icnox12 {
+        display: block;
+        
+    }
+    
+    .oll{
+        font-size: 16px;
+    }
+    .icnox1:hover .oll{
+     transform: rotate(180deg);
+    }
+    
+    .icnox2 a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .icnox2 a:hover {
+        background-color: #f1f1f1;
+        color: black
+    }
+    .yey{
+        display: none;
+    }
+    .fa-right{
+        color: white;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .big{
+        display: flex;
+    }
+    .big:hover .yey{
+        display: block;
+    }
+    .icnox1:hover .icnox2 {
+        display: block;
+    }
+    .icnox2:hover .oll {
+        transform:rotate3d(180deg);
+    }
+    
+    .sss {
+        display: flex;
+        justify-content: space-around
+    }
+    .ic1 {
+        color: #f0a951;
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    .glximg{
+        width: 100%;
+        height: 500px;
+    }
+    .fourt2{
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .four{
+        width: 25%;
+    }
+    .img11{
+        width: 100%;
+        height: 280px;
+    }
+    .texx{
+        color:#3b3940;;
+    }
+    .texx:hover{
+        color: #f0a951;
+    }
+    .ss{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .test{
+        width: 100%;
+        
+    }
+    .x{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .thrt{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .thrty{
+        width: 32%;
+        text-align: center;
+    
+    }
+    .pp{
+        width: 90%;
+        text-align: left;
+    }
+    .img-text{
+        width: 100%;
+        display: flex;
+    }
+    .testim{
+        width: 120px;
+        height: 120px;
+    }
+    .texxx{
+        font-size: 28px;
+        color: #f0a951;
+    }
+    .ic {
+        color: #f0a951
+    }
+    .fourt2{
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .four{
+        width: 25%;
+        padding-left: 30px;
+    }
+    .img111{
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+    }
+    .texx{
+        color:#3b3940;;
+    }
+    .texx:hover{
+        color: #f0a951;
+    }
+    .jok {
+        color: white;
+        text-align: center;
+        padding: 17px;
+        font-size: 20px;
+    }
+    .upp{
+        margin-top: 100px;
+        text-align: center;
+    }
+    .orgg{
+        color: #f0a951;
+       padding-left: 80px;
+        font-size: 30px;
+        font-weight: 1000;
+        padding-top: -30px;
+    }
+    .end{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       margin-top: 80px;
+       
+      
+        
+    }
+    .endof{
+        width: 33%;
+        padding-left: 20px;
+    }
+    .trey{
+        width: 100%;
+    }
+    .end1{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        padding-top: 10px;
+    }
+    .endimg{
+        width: 100px;
+        height: 100px;
+    }
+    .textt{
+        width: 100%;
+    }
+    .org{
+        color: #f0a951;
+        font-size: 20px
+    }
+    .org:hover{
+        color: #3b3940;
+    }
+    .galery{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .gal{
+        width: 120px;
+        height: 120px;
+        padding-left: 8px;
+        padding-top: 8px;
+       
+    }
